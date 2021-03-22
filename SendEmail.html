@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <script src="index.js"></script>
+</head>
+<body>
+    <form method="post">
+        From Email : <input type="email" id="inputFrom" placeholder="Enter From Email"
+        value="ankit.sodha@tops-int.com" />
+        <br><br>
+        To Email : <input type="email" id="inputTo" placeholder="Enter To Email"/>
+        <br><br>
+        Subject : <input type="text" id="inputSubject" placeholder="Enter Subject"/>
+        <br><br>
+        Body : <input type="text" id="inputBody" placeholder="Enter Body" />
+        <br><br>
+		<input type="button" value="Send Email" onclick="sendEmail()"/>
+	</form>  
+</body>
+</html>
