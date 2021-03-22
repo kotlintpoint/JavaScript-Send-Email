@@ -15,8 +15,8 @@ function sendEmail() {
 
 	Email.send({
 	Host: "smtp.gmail.com",
-	Username : "ankit.sodha@tops-int.com",
-	Password : "9377289939",
+	Username :  "<sender’s email address>",
+	Password : "<email password>",
 	To : toValue,
 	From : fromValue,
 	Subject : subjectValue,
